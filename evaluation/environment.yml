@@ -1,0 +1,7 @@
+name: cryoatlas-eval
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - requests=2.32
+  - tqdm=4.67

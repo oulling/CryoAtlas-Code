@@ -1,0 +1,25 @@
+This release contains ModelAngelo 1.0.16 source and local CryoAtlas research
+modifications. Upstream: https://github.com/3dem/model-angelo
+The upstream MIT license is preserved in LICENSE. Third-party attribution
+comments and scientific constants remain in their source files.
+
+This is not an unmodified official ModelAngelo distribution. The CNN trainer,
+dataset handling, logging, and runtime compatibility include local changes.
+The original copied source directory had no Git metadata; a precise upstream
+commit cannot be established from it. The official v1.0.16 source tag was
+also inspected to document local changes. SHA256SUMS records release hashes.
+
+The release excludes private launchers, credentials, experiment outputs,
+datasets, checkpoint weights, duplicated historical CNN trainers, diagnostic
+scripts, and the custom GNN training reproduction. GNN inference, chain
+assembly, sequence assignment, CLI refinement, and model building are retained.
+The unused standalone relaxation helper is excluded; CLI refinement uses
+GNN inference and does not call that helper.
+
+Relative to the pre-release cluster snapshot, this cleanup changes packaging,
+portable launch interfaces, canonical CNN module paths, and documentation.
+Retained numerical implementations are preserved. Local changes relative to
+official ModelAngelo predate packaging and are summarized in README.md.
+Required inference settings belong to the separately obtained weight bundle;
+the unused package-level configuration and release-audit JSON were removed.
+Pretrained weights are obtained under their distributors' terms.

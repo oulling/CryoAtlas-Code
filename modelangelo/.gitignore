@@ -1,0 +1,16 @@
+# CryoAtlas addition: exclude runtime caches, data, and private artifacts.
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+data/
+runs/
+outputs/
+wandb/
+*.torch
+*.pkl
+*.map
+*.mrc
+.env

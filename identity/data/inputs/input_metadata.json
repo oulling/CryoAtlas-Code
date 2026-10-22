@@ -1,0 +1,51 @@
+{
+  "format_version": 1,
+  "purpose": "Exact FASTA inputs used for the released CryoAtlas train-test sequence-identity annotations",
+  "mmseqs2_version": "5d152c612b6ad2a56f657b7a02c127eceaea2a75",
+  "parameters": [
+    "--min-seq-id",
+    "0",
+    "-c",
+    "0.5",
+    "--cov-mode",
+    "0",
+    "-s",
+    "7.5",
+    "-e",
+    "0.001",
+    "-a",
+    "1"
+  ],
+  "export_fields": [
+    "query",
+    "target",
+    "pident",
+    "alnlen",
+    "qcov",
+    "tcov",
+    "evalue",
+    "bits"
+  ],
+  "inputs": [
+    {
+      "role": "test_queries",
+      "file": "final_test.fasta.gz",
+      "records": 4613,
+      "compressed_bytes": 816372,
+      "compressed_sha256": "f5e3d0069ed23cddb5beff7d6c4bf595b9c0e59e4f46c5f9ef2feba3682de608",
+      "uncompressed_file": "final_test.fasta",
+      "uncompressed_bytes": 1860005,
+      "uncompressed_sha256": "d539b524dd66a8d294561790209fffa69379bec8fbefda6c9397ea18070b6568"
+    },
+    {
+      "role": "training_targets",
+      "file": "final_train.fasta.gz",
+      "records": 60234,
+      "compressed_bytes": 7059696,
+      "compressed_sha256": "de608f867b9a67362785fa04946b90f24422a0201829f00c1ffc9e8abb5b4771",
+      "uncompressed_file": "final_train.fasta",
+      "uncompressed_bytes": 26126983,
+      "uncompressed_sha256": "5ce0f50d7377ddcaa926e509f496156f45878bceaae1f96040caf31ec9caae75"
+    }
+  ]
+}

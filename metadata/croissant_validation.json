@@ -1,0 +1,136 @@
+{
+  "state": "passed",
+  "validated_at_utc": "2026-10-21T14:27:50.156011+00:00",
+  "file": "croissant.json",
+  "sha256": "1fd66bfe9a228bb86eda9cbf75cd4deb9ad9eb5ebf53c159eaa0303fb10d4365",
+  "dataset_version": "1.0",
+  "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "data_snapshot": "0779e539e03d62a238eb77427586f9261d3e52c7",
+  "croissant_specification": "1.1",
+  "rai_specification": "1.0",
+  "local_validator": {
+    "package": "mlcroissant",
+    "version": "1.1.1",
+    "schema_errors": 0,
+    "schema_warnings": 0
+  },
+  "online_checker": {
+    "url": "https://huggingface.co/spaces/JoaquinVanschoren/croissant-checker",
+    "implementation_revision": "5a09c4a7740e8e42f982d35217a5310d89d8566c",
+    "checks": {
+      "json": "passed",
+      "schema": "passed",
+      "rai": "passed",
+      "record_generation": "passed"
+    },
+    "record_sets_tested": [
+      "train_entries",
+      "test_entries",
+      "benchmark_targets",
+      "benchmark_results",
+      "training_utility",
+      "archive_catalog",
+      "source_accessions"
+    ],
+    "report_sha256": "916c07368c7f67069c2841ae8817c3d7a5300952bd259a82e4ad0a6a8dc436eb"
+  },
+  "public_download_links": {
+    "tested": 247,
+    "passed": 247,
+    "method": "Unauthenticated HTTP HEAD, including redirect handling and byte-size comparison when Content-Length is returned; no full multi-terabyte download."
+  },
+  "coverage": {
+    "main_archives": 71,
+    "file_objects": 247,
+    "native_file_sets": 16,
+    "typed_record_sets": 7,
+    "train_entries": 16657,
+    "test_entries": 1152,
+    "benchmark_targets": 618,
+    "baseline_result_rows": 3090,
+    "retraining_result_rows": 1236,
+    "authors": 9
+  },
+  "native_file_sets": [
+    {
+      "name": "train_maps",
+      "files_matched": 16657,
+      "containers": 68
+    },
+    {
+      "name": "train_structures",
+      "files_matched": 17270,
+      "containers": 68
+    },
+    {
+      "name": "train_sequences",
+      "files_matched": 49971,
+      "containers": 68
+    },
+    {
+      "name": "test_maps",
+      "files_matched": 1152,
+      "containers": 2
+    },
+    {
+      "name": "test_structures",
+      "files_matched": 1198,
+      "containers": 2
+    },
+    {
+      "name": "test_sequences",
+      "files_matched": 3456,
+      "containers": 2
+    },
+    {
+      "name": "predictions_af3",
+      "files_matched": 618,
+      "containers": 1
+    },
+    {
+      "name": "predictions_cryoatom",
+      "files_matched": 618,
+      "containers": 1
+    },
+    {
+      "name": "predictions_e3_cryofold",
+      "files_matched": 618,
+      "containers": 1
+    },
+    {
+      "name": "predictions_emprot",
+      "files_matched": 618,
+      "containers": 1
+    },
+    {
+      "name": "predictions_modelangelo",
+      "files_matched": 618,
+      "containers": 1
+    },
+    {
+      "name": "predictions_ma_cryoatlas",
+      "files_matched": 618,
+      "containers": 1
+    },
+    {
+      "name": "predictions_ma_cryo2structdata",
+      "files_matched": 618,
+      "containers": 1
+    },
+    {
+      "name": "example_maps",
+      "files_matched": 10,
+      "containers": 1
+    },
+    {
+      "name": "example_structures",
+      "files_matched": 56,
+      "containers": 1
+    },
+    {
+      "name": "example_sequences",
+      "files_matched": 30,
+      "containers": 1
+    }
+  ]
+}
